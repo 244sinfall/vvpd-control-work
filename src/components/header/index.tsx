@@ -10,7 +10,8 @@ const Header = () => {
                 <div className="header-about">О задании</div>
             </span>
             <span className="header-right">
-                <img className="header-github" src={githubLogo} alt="GitHub logo"/>
+                <a rel="noreferrer" href="https://github.com/244sinfall/vvpd-control-work" target="_blank">
+                    <img className="header-github" src={githubLogo} alt="GitHub logo"/></a>
             </span>
 
 

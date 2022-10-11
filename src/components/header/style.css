@@ -7,10 +7,28 @@ header {
     background-color: azure;
 }
 .header-left {
+    height: 100%;
+    align-items: center;
+    user-select: none;
     padding-left: 20px;
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+
+.header-left > * {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header-about:hover {
+    background-color: #fff7ed;
+}
+.header-about {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 .header-right {
     display: flex;
