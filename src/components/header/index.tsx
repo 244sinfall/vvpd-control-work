@@ -10,7 +10,7 @@ const Header = (props: HeaderProps) => {
     return (
         <header className="header">
             <span className="header-left">
-                <div className="header-title">(с) Филин Д.А.</div>
+                <div className="header-title">© Филин Д.А.</div>
                 <div className="header-about" onClick={props.onAboutClick}>О задании</div>
             </span>
             <span className="header-right">
