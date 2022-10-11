@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import App from "./app";
+import './index.css'
 
 /**
  * Работу выполнил студент ЗКИ21-16Б

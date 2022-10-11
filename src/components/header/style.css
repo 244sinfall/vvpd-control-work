@@ -3,8 +3,8 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    color: black;
-    background-color: azure;
+    color: #cbcbcb;
+    background-color: #282c2c;
 }
 .header-left {
     height: 100%;
@@ -22,7 +22,7 @@ header {
 }
 
 .header-about:hover {
-    background-color: #fff7ed;
+    background-color: #545351;
 }
 .header-about {
     height: 100%;

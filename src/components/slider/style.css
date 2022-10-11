@@ -5,23 +5,39 @@
 }
 
 .slider-content {
-    background-color: rgba(230, 243, 243, 0.5);
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(40, 42, 42, 0.5);
+    transition: 0.5s opacity;
+}
+.slider-content-closed {
+    display: none;
+}
+.slider-content-closing {
+    opacity: 0;
+}
+.slider-content-opening {
+    display: block;
+    opacity: 0;
+}
+.slider-content-opened {
+    opacity: 100%;
 }
 
 .slider-title {
-
+    color: #b9b9b9;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     justify-content: center;
     line-height: 30px;
-    background-color: azure;
+    background-color: #262626;
     display: flex;
     gap: 10px;
     align-items: center;
     user-select: none;
 }
 .slider-title svg {
-    max-height: 12px;
+    height: 12px;
+    width: 12px;
     transition: 0.3s transform;
 }
 .arrow-opened {

@@ -4,7 +4,7 @@ import './style.css'
 interface CustomButtonProps {
     title: string,
     onClick: () => void,
-    disabled: boolean | undefined
+    disabled?: boolean
 }
 
 const CustomButton = (props: CustomButtonProps) => {

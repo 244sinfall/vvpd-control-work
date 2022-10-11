@@ -1,0 +1,21 @@
+.custom-button {
+    background: linear-gradient(to right, #575757, #b0b0b0);
+    border-radius: 5px;
+    color: #1c1c1c;
+    padding: 5px;
+    outline: none;
+    border: none;
+    transition: 0.5s all;
+    font-weight: 700;
+    opacity: 100%;
+    user-select: none;
+}
+
+.custom-button:hover:enabled {
+    background: linear-gradient(to right, gray, lightgrey);
+    box-shadow: 1px 2px 4px black;
+}
+
+.custom-button:disabled {
+    opacity: 25%;
+}
