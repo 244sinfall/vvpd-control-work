@@ -1,0 +1,12 @@
+.about-content {
+    padding: 25px;
+    color: #b9b9b9;
+}
+
+a:hover {
+    color: inherit;
+}
+
+a {
+    color: #575757;
+}
