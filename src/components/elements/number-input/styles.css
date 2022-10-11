@@ -1,0 +1,15 @@
+.number-input {
+    width: 32px;
+    font-size: 18px;
+    text-align: end;
+    outline: none;
+    border: 2px lightblue solid;
+    border-radius: 5px;
+    transition: 0.3s border;
+    padding: 1px;
+    height: 20px;
+}
+
+.number-input-empty {
+    border: 2px red solid;
+}

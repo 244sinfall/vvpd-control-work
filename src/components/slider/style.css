@@ -1,0 +1,29 @@
+.slider-container {
+    margin: 10px;
+
+    text-align: center;
+}
+
+.slider-content {
+    background-color: rgba(230, 243, 243, 0.5);
+}
+
+.slider-title {
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    justify-content: center;
+    line-height: 30px;
+    background-color: azure;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    user-select: none;
+}
+.slider-title svg {
+    max-height: 12px;
+    transition: 0.3s transform;
+}
+.arrow-opened {
+    transform: rotateZ(180deg);
+}

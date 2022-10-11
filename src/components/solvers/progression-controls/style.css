@@ -1,0 +1,21 @@
+.arithmetic-progression-controls {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.arithmetic-progression-controls-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 440px) {
+    .arithmetic-progression-controls {
+        gap: 10px;
+    }
+    .arithmetic-progression-controls-inner {
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+    }
+}
