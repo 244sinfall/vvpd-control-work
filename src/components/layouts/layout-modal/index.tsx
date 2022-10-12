@@ -20,7 +20,6 @@ const LayoutModal = (props: LayoutModalProps) => {
                 props.onClose()
             }, 300)
         }
-
     }
     return (
         <div className={"modal-container modal-container-"+appearing}>
