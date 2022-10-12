@@ -20,7 +20,7 @@ const AboutContent = () => {
             – значения знаменателя геометрической прогрессии и её начальный элемент задаются по выбору пользователя: случайными величинами, либо значениями, введенными пользователем с клавиатуры<br/>
             – коэффициенты при неизвестных в уравнении вводятся пользователем с клавиатуры<br/><br/>
                 <strong>Github репозиторий доступен по клику на иконку в хедере.</strong><br/><br/>
-                <strong>Отчёт доступен <a href="https://google.com" target="_blank" rel="noreferrer">здесь.</a></strong>
+                <strong>Отчёт доступен <a href="https://docs.google.com/document/d/1CRd13yIKLMt6xKrXTDc2gmVitHaY-g75/edit?usp=sharing&ouid=116876138408263797372&rtpof=true&sd=true" target="_blank" rel="noreferrer">здесь.</a></strong>
             </span>
         </div>
     );
