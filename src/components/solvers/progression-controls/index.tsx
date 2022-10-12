@@ -26,13 +26,13 @@ const ProgressionControls = (props: ProgressionProps) => {
         }, [props, sumValue]),
     }
     return (
-        <div className="arithmetic-progression-controls">
-            <span className="arithmetic-progression-controls-inner">
-                <span className="arithmetic-progression-controls-find-input">Найти <NumberInput value={findValue} onChange={callbacks.onChangeFindValue}/> член прогрессии</span>
+        <div className="progression-controls">
+            <span className="progression-controls-inner">
+                <span className="progression-controls-find-input">Найти <NumberInput value={findValue} onChange={callbacks.onChangeFindValue}/> член прогрессии</span>
                 <CustomButton disabled={isNaN(parseInt(findValue))} onClick={callbacks.onFind} title="Решить"/>
             </span>
-            <span className="arithmetic-progression-controls-inner">
-                <span className="arithmetic-progression-controls-sum-input">Найти сумму <NumberInput value={sumValue} onChange={callbacks.onChangeSumValue}/> членов прогрессии</span>
+            <span className="progression-controls-inner">
+                <span className="progression-controls-sum-input">Найти сумму <NumberInput value={sumValue} onChange={callbacks.onChangeSumValue}/> членов прогрессии</span>
                 <CustomButton disabled={isNaN(parseInt(sumValue))} onClick={callbacks.onSum} title="Решить"/>
             </span>
         </div>

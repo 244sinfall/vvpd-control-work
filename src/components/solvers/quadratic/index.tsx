@@ -11,8 +11,8 @@ interface QuadraticInputProps {
 
 const QuadraticInput = (props: QuadraticInputProps) => {
     return (
-        <div className="linear-equation-input">
-            <span className="linear-equation-plate">
+        <div className="quadratic-input">
+            <span>
                 <NumberInput value={props.aValue}
                              onChange={e => props.onChange("a", e.target.value)}/>x^2 + <NumberInput
                 value={props.bValue} onChange={e => props.onChange("b", e.target.value)}/>x + <NumberInput

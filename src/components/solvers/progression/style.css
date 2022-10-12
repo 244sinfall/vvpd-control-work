@@ -1,11 +1,11 @@
-.arithmetic-progression {
+.progression {
     padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.arithmetic-progression-choice {
+.progression-choice {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

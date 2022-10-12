@@ -10,8 +10,8 @@ interface LinearInputProps {
 
 const LinearInput = (props: LinearInputProps) => {
     return (
-        <div className="linear-equation-input">
-            <span className="linear-equation-plate">
+        <div className="linear-input">
+            <span>
                 <NumberInput value={props.aValue}
                              onChange={e => props.onChange("a", e.target.value)}/>x + <NumberInput
                 value={props.bValue} onChange={e => props.onChange("b", e.target.value)}/> = 0

@@ -11,13 +11,13 @@ interface ProgressionInputProps {
 
 const ProgressionInput = (props: ProgressionInputProps) => {
     return (
-        <div className="arithmetic-progression">
-            <div className="arithmetic-progression-choice">
+        <div className="progression">
+            <div className="progression-choice">
                 Первый член прогрессии:
                 <CustomButton title="Случайный" onClick={() => props.onChange("first", String(Math.ceil(Math.random() * 100)))}/>
                 <NumberInput value={props.startValue} onChange={e => props.onChange("first", e.target.value)}/>
             </div>
-            <div className="arithmetic-progression-choice">
+            <div className="progression-choice">
                 Разность прогрессии:
                 <CustomButton title="Случайный"
                               onClick={() => props.onChange("step", String(Math.ceil(Math.random() * 100)))}/>

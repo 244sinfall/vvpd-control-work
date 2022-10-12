@@ -12,8 +12,8 @@ interface CubicInputProps {
 
 const CubicInput = (props: CubicInputProps) => {
     return (
-        <div className="linear-equation-input">
-            <span className="linear-equation-plate">
+        <div className="cubic-input">
+            <span>
                 <NumberInput value={props.aValue}
                              onChange={e => props.onChange("a", e.target.value)}/>x^3 + <NumberInput
                 value={props.bValue} onChange={e => props.onChange("b", e.target.value)}/>x^2 + <NumberInput
