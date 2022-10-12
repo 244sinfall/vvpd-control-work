@@ -51,5 +51,4 @@ export class GeometricProgression implements Progression {
     setStep(n: number): void {
         if(!isNaN(n)) this._denominator = n
     }
-
 }
